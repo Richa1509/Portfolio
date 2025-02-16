@@ -4,6 +4,9 @@
     font-family:'Poppins',sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
     color:#fff;
@@ -336,6 +339,13 @@ nav.fas{
         cursor: pointer;
     }
 
+}
+#msg{
+    color: #61b752;
+    margin-top: 10px; 
+    display: block;
+    font-size: 16px; 
+    text-align: center;
 }
 
 
