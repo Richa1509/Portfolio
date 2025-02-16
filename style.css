@@ -174,6 +174,126 @@ nav ul li a :hover ::after{
     background: #ff004f;
     transform: translate(-10px);
 }
+/***********MY work******************/
+/*#portfolio{
+    padding: 50px 0;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    border-radius:10px;
+    display: block;
+}*/
+/***contact****/
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform:translate(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-decoration: none; 
+    margin-top: 20px; 
+}
+.btn.btn2 {
+    background: #ff004f;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn.btn2[href] {
+    padding: 12px 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.btn.btn2:hover {
+    background: #e60046;
+    transform: scale(1.05);
+}
+.contact-right form{
+    width: 100%;
+}
+form input , form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor:pointer;
+
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding:25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #e60046;
+}
+
 
 
 
